@@ -3,44 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ananya Kadakol - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="hero">
-        <h1>Ananya Kadakol</h1>
-        <p>Web Developer | Problem Solver | Innovator</p>
-    </div>
+    <meta name="description" content="Portfolio website of Ananya Kadakol showcasing projects, skills, and contact information.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ananya Kadakol Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #e6f2ff, #ffffff);
+            color: #333;
+        }
 
-    <div class="container">
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project 1: Design Thinking</h3>
-                <p>Developed innovative solutions for social challenges.</p>
-            </div>
-            <div class="project">
-                <h3>Project 2: Rat Trapper</h3>
-                <p>Engineered an effective trapper using smart tools.</p>
-            </div>
-        </section>
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0066cc;
+            color: #ffffff;
+        }
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <p>C++, Python, Data Structures, Algorithms, Web Development</p>
-        </section>
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:ananya@example.com">ananya@example.com</a></p>
-            <p>GitHub: <a href="https://github.com/ananyakadakol">github.com/ananyakadakol</a></p>
-        </section>
-    </div>
+        header p {
+            font-size: 1.2rem;
+        }
 
-    <footer>
-        <p>Made with ❤️ by Ananya Kadakol</p>
-    </footer>
-</body>
-</html>
+        nav {
+            margin-top: 15px;
+        }
 
-       
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .project-card {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .project-card h3 {
+            color: #0066cc;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background-color: #0066cc;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .social-icons a:hover {
+            color: #ffcc00;
+        }
