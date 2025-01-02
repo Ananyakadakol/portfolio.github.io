@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
     --bg-primary: #1e1e2f;
-    --glass-bg: rgba(255, 255, 255, 0.1);
+    --card-bg: #292940;
     --text-primary: #ffffff;
     --text-secondary: #d1d5db;
     --gradient: linear-gradient(135deg, #6d83f5, #00e0ff);
@@ -37,8 +37,7 @@ header {
     padding: 1rem 0;
     top: 0;
     z-index: 1000;
-    backdrop-filter: blur(15px);
-    background-color: var(--glass-bg);
+    background-color: var(--card-bg);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
@@ -54,9 +53,9 @@ nav ul li a {
     color: var(--text-primary);
     font-size: 1.2rem;
     text-transform: uppercase;
-    position: relative;
     text-decoration: none;
     font-weight: 600;
+    position: relative;
 }
 
 nav ul li a:hover,
@@ -119,7 +118,7 @@ p {
 }
 
 .card {
-    background: var(--glass-bg);
+    background: var(--card-bg);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     padding: 20px;
@@ -140,7 +139,7 @@ p {
 }
 
 .project-card {
-    background: var(--glass-bg);
+    background: var(--card-bg);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     padding: 20px;
@@ -230,3 +229,6 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+
+ 
