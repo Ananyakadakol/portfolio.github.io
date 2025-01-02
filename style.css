@@ -1,104 +1,54 @@
-/* General Styles */
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    padding: 0;
     color: #333;
-    background-color: #f4f4f9;
 }
 
-/* Hero Section */
-.hero-section {
-    text-align: center;
+.hero {
     background: linear-gradient(to right, #6a11cb, #2575fc);
     color: white;
+    text-align: center;
     padding: 50px 20px;
 }
 
-.hero-section h1 {
+.hero h1 {
+    margin: 0;
     font-size: 3rem;
 }
 
-.hero-section p {
-    font-size: 1.2rem;
+.hero p {
     margin-top: 10px;
+    font-size: 1.5rem;
 }
 
-/* Main Sections */
-main {
+.container {
+    max-width: 960px;
     margin: 20px auto;
-    max-width: 800px;
     padding: 0 20px;
+}
+
+section {
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 2rem;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* Projects Section */
-.projects-section .projects {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.projects .card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    text-align: center;
-}
-
-.projects .card h3 {
-    font-size: 1.5rem;
+    color: #6a11cb;
     margin-bottom: 10px;
 }
 
-.projects .card p {
-    font-size: 1rem;
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
 }
 
-/* Skills Section */
-.skills-section ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-.skills-section li {
-    font-size: 1.2rem;
-    margin: 10px 0;
-}
-
-/* Contact Section */
-.contact-section p {
-    text-align: center;
-    font-size: 1.1rem;
-}
-
-.contact-section a {
-    color: #2575fc;
-    text-decoration: none;
-}
-
-/* Footer */
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
     background: #6a11cb;
     color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
-
-
-   
-
-
- 
