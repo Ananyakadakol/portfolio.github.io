@@ -4,130 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio website of Ananya Kadakol showcasing projects, skills, and reflections.">
-    <title>Aesthetic Portfolio</title>
+    <title>Ananya Kadakol Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #1f1c2c, #928dab);
-            color: #ffffff;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 50px;
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-        header .logo {
-            font-size: 24px;
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        header .nav-links a {
-            color: #ffffff;
-            text-decoration: none;
-            margin-left: 20px;
-            font-size: 16px;
-        }
-        header .nav-links a:hover {
-            color: #ffd700;
-        }
-        .home {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 50px;
-            min-height: 100vh;
-        }
-        .home-content {
-            max-width: 50%;
-        }
-        .home-content h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-        .home-content span {
-            color: #ffd700;
-        }
-        .home-content p {
-            font-size: 18px;
-            margin-bottom: 30px;
-            line-height: 1.6;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-right: 10px;
-            background-color: #ffd700;
-            color: #000000;
-            border-radius: 25px;
-            font-size: 16px;
-            text-decoration: none;
-        }
-        .btn:hover {
-            background-color: #f4c200;
-        }
-        .social-icons {
-            margin-top: 20px;
-        }
-        .social-icons a {
-            color: #ffffff;
-            font-size: 24px;
-            margin-right: 15px;
-        }
-        .social-icons a:hover {
-            color: #ffd700;
-        }
-        .home-img img {
-            width: 500px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.8);
-            margin-top: 50px;
-        }
-        footer p {
-            margin: 0;
-            color: #ffffff;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Ananya's Portfolio</a>
-        <nav class="nav-links">
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+        <nav>
+            <ul>
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio-topic">Portfolio Topic</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
+        <h1>Ananya Kadakol</h1>
     </header>
-
-    <section class="home">
-        <div class="home-content">
-            <h1>Hello, I'm <span>Ananya Kadakol</span></h1>
-            <p>Welcome to my portfolio! I am passionate about technology, problem-solving, and innovation. Here, you'll find my projects, skills, and reflections.</p>
-            <a href="#projects" class="btn">Explore My Work</a>
-            <a href="#contact" class="btn">Get in Touch</a>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/ananyakadakol"><i class="fa-brands fa-github"></i></a>
-            </div>
-        </div>
-        <div class="home-img">
-            <img src="https://via.placeholder.com/500x300" alt="Portfolio Image">
-        </div>
+    <section id="welcome">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Explore my projects, skills, and connect with me online.</p>
     </section>
-
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1: Design Thinking for Social Innovation</li>
+            <li>Project 2: Engineering Exploration - Rat Trapper</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C++, Python, HTML</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Development</li>
+        </ul>
+    </section>
+    <section id="portfolio-topic">
+        <h2>Portfolio Topic</h2>
+        <dl>
+            <dt>Course Name</dt>
+            <dd>Algorithmic Problem Solving</dd>
+            <dt>University</dt>
+            <dd>KLE Technological University</dd>
+        </dl>
+    </section>
     <footer>
-        <p>© 2025 Ananya Kadakol. All Rights Reserved.</p>
+        <p>&copy; 2025 Ananya Kadakol. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
-
