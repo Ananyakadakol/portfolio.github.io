@@ -15,7 +15,7 @@ body{
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    background-color: black;
+    background-color: blue; /* Changed from black to blue */
     color: white;
 }
 header{
@@ -93,7 +93,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background-color: black;
+    background-color: blue; /* Changed from black to blue */
 }
 .home .home-content h1{
     font-size: 6rem;
