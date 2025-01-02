@@ -1,54 +1,52 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
+ </style>
+</head>
+<body>
+    <header>
+        <h1>Ananya Kadakol</h1>
+        <p>Welcome to my professional portfolio</p>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-.hero {
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-}
+    <div class="content">
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Design Thinking for Social Innovation</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Engineering Exploration - Rat Trapper</p>
+                </div>
+            </div>
+        </section>
 
-.hero h1 {
-    margin: 0;
-    font-size: 3rem;
-}
+        <section id="skills" class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>C++, C, HTML</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Creative Problem Solving</li>
+            </ul>
+        </section>
 
-.hero p {
-    margin-top: 10px;
-    font-size: 1.5rem;
-}
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:ananya@example.com">ananya@example.com</a></p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ananyakadakol" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+    </div>
 
-.container {
-    max-width: 960px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 2rem;
-    color: #6a11cb;
-    margin-bottom: 10px;
-}
-
-.project {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background: #f9f9f9;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #6a11cb;
-    color: white;
-}
+    <footer>
+        <p>&copy; 2025 Ananya Kadakol. All rights reserved.</p>
+    </footer>
+</body>
+</html>
