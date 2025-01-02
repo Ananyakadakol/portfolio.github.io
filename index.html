@@ -3,85 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ananya Kadakol's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Portfolio website of Ananya Kadakol showcasing projects, skills, and reflections.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            background-color: #000000; /* Change background to black */
+            color: #ffffff; /* Change text color to white */
+            font-family: Arial, sans-serif;
+        }
+        header a.logo {
+            color: #ffffff; /* Change header logo text to white */
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        h2, h1, h3 {
+            color: #ffffff; /* Ensure all headings are white */
+        }
+        a {
+            color: #0066cc; /* Blue for links */
+            text-decoration: none;
+        }
+        a:hover {
+            color: #0055aa; /* Darker blue for hover effect */
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            color: #ffffff; /* Button text white */
+            background-color: #0066cc; /* Button background blue */
+            border-radius: 5px;
+            text-align: center;
+        }
+        .btn:hover {
+            background-color: #0055aa; /* Darker blue for button hover effect */
+        }
+        .social-icons a {
+            color: #ffffff; /* White for social icons */
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .social-icons a:hover {
+            color: #0066cc; /* Blue on hover */
+        }
+        img {
+            border: 2px solid #0066cc; /* Add a blue border around the image */
+        }
+        dl dt {
+            font-weight: bold;
+            color: #ffffff; /* White for definition terms */
+        }
+        dl dd {
+            color: #ffffff; /* White for definition descriptions */
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#welcome">Welcome</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio-topic">Portfolio Topic</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Ananya Kadakol</h1>
+        <a href="#" class="logo">Data Analysis and Algorithms</a>
     </header>
-    <section id="welcome">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Explore my projects, skills, and connect with me online.</p>
+    <section class="home">
+        <div class="home-img">
+            <img src="https://media.istockphoto.com/id/1071748346/photo/corrupted-data-red-binary-code.jpg?s=612x612&w=0&k=20&c=24otejzWwgiWiPlo_8Z2PjdJ1D2L7Es1x_F197yrSXA=" 
+                alt="Blue binary code representing data" 
+                width="800" 
+                height="600">
+        </div>
+        <div class="home-content">
+            <h1>Hi, my name is <span style="color: #0066cc;">Ananya Kadakol</span></h1>
+            <h3 class="typing-text">I'm passionate about technology and problem-solving.<br> Here's a glimpse of my work</h3>
+
+            <h2>🛠 Projects</h2>
+            <ul>
+                <li>Project 1: Design thinking for social innovation.</li>
+                <li>Project 2: Engineering Exploration - Rat trapper.</li>
+            </ul>
+
+            <h2>🚀 Skills</h2>
+            <ul>
+                <li>C++, C, HTML</li>
+                <li>Data Structures and Algorithms</li>
+            </ul>
+
+            <h2>🌐 Find Me Online</h2>
+            <p><a href="https://github.com/ananyakadakol">GitHub</a></p>
+
+            <h2>Portfolio Topic</h2>
+            <dl>
+                <dt>Course Name</dt>
+                <dd>Algorithmic Problem Solving</dd>
+                <dt>Course Code</dt>
+                <dd>24ECAC203</dd>
+                <dt>Name</dt>
+                <dd>Ananya Kadakol</dd>
+                <dt>SRN</dt>
+                <dd>01FE23BCI025</dd>
+                <dt>Course Instructor</dt>
+                <dd>K M M Rajashekharaiah Sir</dd>
+                <dt>University</dt>
+                <dd>KLE Technological University</dd>
+                <dt>Portfolio Topic/Domain</dt>
+                <dd>Data Analysis and Algorithms</dd>
+            </dl>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/mishtydak"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <a href="Reflections.html" class="btn">Reflections</a>
+            <a href="DAA_THEORY.html" class="btn">Course Outcomes</a>
+            <a href="DAA_LAB.html" class="btn">SDG's</a>
+        </div>
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <h3>Project 1</h3>
-                <p>A short description of your project.</p>
-            </li>
-            <li>
-                <h3>Project 2</h3>
-                <p>A short description of another project.</p>
-            </li>
-        </ul>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <h3>Programming Languages</h3>
-        <p>C++, Python, JavaScript</p>
-        <h3>Web Development</h3>
-        <p>HTML, CSS, React.js, Node.js</p>
-        <h3>Databases</h3>
-        <p>MySQL, MongoDB</p>
-        <h3>Other Skills</h3>
-        <p>Data Structures, Algorithms, Problem Solving</p>
-    </section>
-    <section id="portfolio-topic">
-        <h2>Portfolio Topic</h2>
-        <dl>
-            <dt>Course Name</dt>
-            <dd>Design And Analysis of Algorithms</dd>
-            <dt>Course Code</dt>
-            <dd>20ECSC205</dd>
-            <dt>Name</dt>
-            <dd>Ananya Kadakol</dd>
-            <dt>SRN</dt>
-            <dd>01FE23BCI025</dd>
-            <dt>Course Instructor</dt>
-            <dd>Rajashekharaiah K.M.M</dd>
-            <dt>University</dt>
-            <dd>KLE Technological University</dd>
-            <dt>Portfolio Topic/Domain</dt>
-            <dd>Warehouse management</dd>
-        </dl>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2025 Ananya Kadakol. All Rights Reserved.</p>
-    </footer>
 </body>
 </html>
-
